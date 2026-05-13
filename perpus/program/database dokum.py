@@ -22,7 +22,7 @@ base.metadata.create_all(engine)
 
 '''
 # menambahkan data ke dalam table
-buku1 = Buku(nama_buku="mein khanf", nama_penulis="Adolf hitler", noSeri=353235)
+buku1 = Buku(nama_buku="Sizen", nama_penulis="WIw", noSeri=353235)
 #memanfaatkan session
 session.add(buku1)
 session.commit()
